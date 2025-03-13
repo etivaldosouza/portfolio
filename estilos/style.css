@@ -29,24 +29,29 @@ body {
 }
 
 
+.menu {
+    display: flex;
+    gap: 30px;
+}
 
 .menu > a {
     font-size: 22px;
     font-weight: 700;
     color: #ffffff;
+    
 }
 
 .conteudo {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     border-top: 0.4px solid #ffffff;
     margin-bottom: 48px;
     gap: 100px;
-    
 
 }
+
 .conteudo-principal {
     width: 864px;
     height: 160px;
@@ -72,8 +77,8 @@ body {
     text-align: justify;
     background-image: url('../imagens/logo2-maior.png');
     background-repeat: no-repeat;
-    background-position-x: right;
-    ba
+    background-position: right top;
+    background-size: 200px;
     
 }
 
@@ -110,4 +115,173 @@ body {
     position: relative;
     top: 170px;
     border-radius: 14px;
+    
+}
+
+.titulo-card {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    text-align: start;
+}
+
+.paragrafo-card{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-flow: column;
+    margin-top: 100px;
+    
+}
+
+
+.skill-titulo{
+    text-align: center;
+    font-size: 42px;
+    color:#ffffff;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight:700;
+    margin-bottom: 50px;
+}
+
+.skill-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.projeto{
+    width: 1216px;
+    height: 626px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;  
+    
+}
+
+.titulo-card-projeto {
+    font-size: 42px;
+    color:#ffffff;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight:700;
+    
+}
+
+.subtitulo-card-projeto{
+    text-align: center;
+    margin: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+
+.card-projeto-pai{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    
+   
+}
+
+.paragrafo-card-projeto{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 20px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.card-projeto{ 
+    width: 366px;
+    height: 254px;
+    background-color: #2D82B7;  
+    border-radius: 14px;
+    background-image: url('../imagens/Robot.png'); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right bottom;
+}
+
+.rodape {
+
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    width: 100%;
+    height: 392px;
+    background-color: rgba(45, 130, 183, 0.2);
+    background-image: url('../imagens/logo2-maior.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 200px;
+
+   
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+    
+ }
+
+ .rodape-titulo {
+    font-size: 32px;
+    font-weight: 700px;
+    color: #ffffff;
+ }
+
+.rodape-itens{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 100px;
+    padding-left: 150px;
+}
+
+.rodape-contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Ubuntu Mono, monospace';
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+.rodape-social{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+   
+}
+
+.rodape-link {
+    font-family: 'Ubuntu Mono, monospace';
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.fa-github {
+    color: white;
+    font-size: 18px;
+}
+
+.fa-linkedin{
+    color: white;
+    font-size: 18px;
 }
