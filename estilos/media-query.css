@@ -122,5 +122,7 @@ grandes telas: acima de 1200px;
         width: 100%;
         height: auto;
         padding: 20px;
+
+        background-size: 60px;
     }
 }
